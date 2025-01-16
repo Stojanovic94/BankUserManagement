@@ -15,6 +15,8 @@ public class VIPUserStrategy implements UserTypeStrategy {
 
     @Override
     public boolean hasAccessToAccount(String accountType) {
-        return true; // Pristup svim računima
+        
+        // Pristup svim računima
+        return true;
     }
 }
