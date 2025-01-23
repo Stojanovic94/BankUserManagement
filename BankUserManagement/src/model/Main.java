@@ -5,6 +5,7 @@ import factory.UserFactory;
 
 public class Main {
     public static void main(String[] args) {
+        
         // Kreiramo korisnike pomoću fabrike
         BankUser standardUser = UserFactory.createUser("standard", "Marko Marković");
         BankUser vipUser = UserFactory.createUser("vip", "Ana Anić");
